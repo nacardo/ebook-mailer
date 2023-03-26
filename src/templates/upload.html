@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link
+            rel="stylesheet"
+            href="{{ url_for('static', filename='style.css') }}"
+        />
+        <title>Calibre E-Book Convert</title>
+    </head>
+    <body>
+        <div class="form-container">
+            <form
+                class="file-form"
+                action="/upload"
+                method="POST"
+                enctype="multipart/form-data"
+            >
+                <label for="file">File:</label>
+                <input type="file" id="file" name="file" /><br />
+                <button>Upload</button>
+            </form>
+        </div>
+    </body>
+</html>

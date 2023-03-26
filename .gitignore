@@ -1,0 +1,11 @@
+venv/
+uploads/
+outputs/
+
+# books
+*.epub
+*.txt
+*.pdf
+
+# env
+.env
